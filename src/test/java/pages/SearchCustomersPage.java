@@ -29,6 +29,14 @@ public class SearchCustomersPage {
 	@FindBy(css = "input#SearchEmail")
 	WebElement email;
 	
+	@FindBy(css = "input#SearchFirstName")
+	WebElement firstName;
+	
+	@FindBy(css = "input#SearchLastName")
+	WebElement lastName;
+	
+	
+	
 	@FindBy(css = "button#search-customers")
 	WebElement searchBtn;
 	
@@ -40,6 +48,9 @@ public class SearchCustomersPage {
 	WebElement foundEmail;
 	
 	
+	@FindBy(xpath = "//table[@id='customers-grid']/tbody/tr/td[3]")
+	WebElement foundName;
+	
 
 
 public void searchCustomerbyEmail(String emailAddr){
@@ -49,6 +60,16 @@ public void searchCustomerbyEmail(String emailAddr){
 		
 	}
 	
+
+public void searchCustomerbyName(String fname,String lname ){
+	
+	   email.clear();
+	   firstName.sendKeys(fname);
+	   email.clear();
+	   lastName.sendKeys(lname);
+		
+	}
+
 
 public void clickSearchBtn() throws InterruptedException{
 	
@@ -67,6 +88,19 @@ public void emailFound_WebTable(String expectedEmail){
 	 wait.until(ExpectedConditions.textToBePresentInElement(foundEmail,expectedEmail));
 
 	 }
+
+
+
+
+public void nameFound_WebTable(String expectedName){
+	
+
+	 WebDriverWait wait = new WebDriverWait(driver,30);
+
+	 wait.until(ExpectedConditions.textToBePresentInElement(foundName,expectedName));
+
+	 }
+	  
 	  
 		
 	}

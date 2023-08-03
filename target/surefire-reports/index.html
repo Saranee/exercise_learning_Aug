@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -106,12 +106,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.searchCustByName" class="method navigator-link" hash-for-method="clickCustomerMenu">clickCustomerMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.searchCustByEmail" class="method navigator-link" hash-for-method="custByEmail(victoria_victoria@nopCommerce.com)">custByEmail(victoria_victoria@nopCommerce.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.searchCustByName" class="method navigator-link" hash-for-method="custByName(Virat, Kohli)">custByName(Virat, Kohli)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.searchCustByEmail" class="method navigator-link" hash-for-method="verifyLoginFeature">verifyLoginFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.searchCustByName" class="method navigator-link" hash-for-method="verifyLoginFeature">verifyLoginFeature</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -156,6 +171,36 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.searchCustByName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCustomerMenu">
+                  </a> <!-- clickCustomerMenu -->
+                  <span class="method-name">clickCustomerMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="custByName(Virat, Kohli)">
+                  </a> <!-- custByName(Virat, Kohli) -->
+                  <span class="method-name">custByName</span>
+                  <span class="parameters">(Virat, Kohli)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFeature">
+                  </a> <!-- verifyLoginFeature -->
+                  <span class="method-name">verifyLoginFeature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -166,11 +211,16 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite parallel=&quot;none&quot; name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.searchCustByEmail&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.searchCustByName&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -182,7 +232,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,24 +261,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyLoginFeature')
-data.setCell(0, 2, 'tests.searchCustByEmail')
-data.setCell(0, 3, 5159);
+data.setCell(0, 2, 'tests.searchCustByName')
+data.setCell(0, 3, 4359);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickCustomerMenu')
+data.setCell(1, 1, 'verifyLoginFeature')
 data.setCell(1, 2, 'tests.searchCustByEmail')
-data.setCell(1, 3, 1688);
+data.setCell(1, 3, 4242);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'custByEmail')
+data.setCell(2, 1, 'clickCustomerMenu')
 data.setCell(2, 2, 'tests.searchCustByEmail')
-data.setCell(2, 3, 1119);
+data.setCell(2, 3, 1968);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickCustomerMenu')
+data.setCell(3, 2, 'tests.searchCustByName')
+data.setCell(3, 3, 1416);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'custByName')
+data.setCell(4, 2, 'tests.searchCustByName')
+data.setCell(4, 3, 1359);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'custByEmail')
+data.setCell(5, 2, 'tests.searchCustByEmail')
+data.setCell(5, 3, 1190);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -258,19 +323,42 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginFeature</span>
-                <span class="method-start">6359 ms</span>
+                <span class="method-start">4946 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickCustomerMenu</span>
-                <span class="method-start">11518 ms</span>
+                <span class="method-start">9188 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">custByEmail(victoria_victoria@nopCommerce.com)</span>
-                <span class="method-start">13216 ms</span>
+                <span class="method-start">11156 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeApp</span>
-                <span class="method-start">14338 ms</span>
+                <span class="method-start">12352 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.searchCustByName</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">17543 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFeature</span>
+                <span class="method-start">20741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickCustomerMenu</span>
+                <span class="method-start">25100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">custByName(Virat, Kohli)</span>
+                <span class="method-start">26516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">27875 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

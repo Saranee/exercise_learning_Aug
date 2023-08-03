@@ -324,3 +324,76 @@
 2023-08-02 16:42:47,553 [main] INFO nopComm Application - Check the searched email is displayed in webtable
 2023-08-02 16:42:48,176 [main] INFO nopComm Application - Found searched email!!
 2023-08-02 16:42:48,180 [main] INFO nopComm Application - closing an application
+2023-08-02 17:52:27,725 [main] INFO nopComm Application - ---------------info-------------
+2023-08-02 17:52:27,728 [main] WARN nopComm Application - ---------------warn-------------
+2023-08-02 17:52:27,729 [main] ERROR nopComm Application - ---------------error-------------
+2023-08-02 17:52:27,729 [main] INFO nopComm Application - launching chrome browser
+2023-08-02 17:52:30,860 [main] INFO nopComm Application - launching application: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2023-08-02 17:52:32,020 [main] INFO nopComm Application - Logging into NOP Application using valid credentials
+2023-08-02 17:52:34,644 [main] INFO nopComm Application - Select Customers from Menu
+2023-08-02 17:52:34,778 [main] INFO nopComm Application - Select Customers from CustomerMenu List
+2023-08-02 17:52:36,073 [main] INFO nopComm Application - Searching Customer using Email Id
+2023-08-02 17:52:36,245 [main] INFO nopComm Application - Clicking Search button
+2023-08-02 17:52:36,332 [main] INFO nopComm Application - Check the searched email is displayed in webtable
+2023-08-02 17:52:36,914 [main] INFO nopComm Application - Found searched email!!
+2023-08-02 17:52:36,914 [main] INFO nopComm Application - closing an application
+2023-08-02 18:21:59,998 [main] INFO nopComm Application - ---------------info-------------
+2023-08-02 18:22:00,002 [main] WARN nopComm Application - ---------------warn-------------
+2023-08-02 18:22:00,004 [main] ERROR nopComm Application - ---------------error-------------
+2023-08-02 18:22:00,004 [main] INFO nopComm Application - launching chrome browser
+2023-08-02 18:22:02,515 [main] INFO nopComm Application - launching application: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2023-08-02 18:22:04,299 [main] INFO nopComm Application - Logging into NOP Application using valid credentials
+2023-08-02 18:22:08,037 [main] INFO nopComm Application - Select Customers from Menu
+2023-08-02 18:22:08,113 [main] INFO nopComm Application - Select Customers from CustomerMenu List
+2023-08-02 18:22:09,284 [main] INFO nopComm Application - Searching Customer using Email Id
+2023-08-02 18:22:09,487 [main] INFO nopComm Application - Clicking Search button
+2023-08-02 18:22:09,559 [main] INFO nopComm Application - Check the searched email is displayed in webtable
+2023-08-02 18:22:09,601 [main] INFO nopComm Application - Found searched customer Name!!
+2023-08-02 18:22:09,604 [main] INFO nopComm Application - closing an application
+2023-08-02 18:24:54,787 [main] INFO nopComm Application - ---------------info-------------
+2023-08-02 18:24:54,790 [main] WARN nopComm Application - ---------------warn-------------
+2023-08-02 18:24:54,790 [main] ERROR nopComm Application - ---------------error-------------
+2023-08-02 18:24:54,790 [main] INFO nopComm Application - launching chrome browser
+2023-08-02 18:24:57,206 [main] INFO nopComm Application - launching application: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2023-08-02 18:24:58,120 [main] INFO nopComm Application - Logging into NOP Application using valid credentials
+2023-08-02 18:25:02,255 [main] INFO nopComm Application - Select Customers from Menu
+2023-08-02 18:25:02,326 [main] INFO nopComm Application - Select Customers from CustomerMenu List
+2023-08-02 18:25:03,685 [main] INFO nopComm Application - Searching Customer using Email Id
+2023-08-02 18:25:03,884 [main] INFO nopComm Application - Clicking Search button
+2023-08-02 18:25:03,942 [main] INFO nopComm Application - Check the searched email is displayed in webtable
+2023-08-02 18:25:34,204 [main] INFO nopComm Application - closing an application
+2023-08-02 18:30:23,396 [main] INFO nopComm Application - ---------------info-------------
+2023-08-02 18:30:23,396 [main] WARN nopComm Application - ---------------warn-------------
+2023-08-02 18:30:23,396 [main] ERROR nopComm Application - ---------------error-------------
+2023-08-02 18:30:23,396 [main] INFO nopComm Application - launching chrome browser
+2023-08-02 18:30:26,037 [main] INFO nopComm Application - launching application: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2023-08-02 18:30:26,584 [main] INFO nopComm Application - Logging into NOP Application using valid credentials
+2023-08-02 18:30:32,496 [main] INFO nopComm Application - Select Customers from Menu
+2023-08-02 18:30:32,535 [main] INFO nopComm Application - Searching Customer using Email Id
+2023-08-02 18:30:32,550 [main] INFO nopComm Application - closing an application
+2023-08-02 18:30:48,990 [main] INFO nopComm Application - ---------------info-------------
+2023-08-02 18:30:48,990 [main] WARN nopComm Application - ---------------warn-------------
+2023-08-02 18:30:48,990 [main] ERROR nopComm Application - ---------------error-------------
+2023-08-02 18:30:48,990 [main] INFO nopComm Application - launching chrome browser
+2023-08-02 18:30:51,987 [main] INFO nopComm Application - launching application: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2023-08-02 18:30:53,857 [main] INFO nopComm Application - Logging into NOP Application using valid credentials
+2023-08-02 18:30:58,099 [main] INFO nopComm Application - Select Customers from Menu
+2023-08-02 18:30:58,233 [main] INFO nopComm Application - Select Customers from CustomerMenu List
+2023-08-02 18:31:00,067 [main] INFO nopComm Application - Searching Customer using Email Id
+2023-08-02 18:31:00,467 [main] INFO nopComm Application - Clicking Search button
+2023-08-02 18:31:00,618 [main] INFO nopComm Application - Check the searched email is displayed in webtable
+2023-08-02 18:31:01,257 [main] INFO nopComm Application - Found searched email!!
+2023-08-02 18:31:01,263 [main] INFO nopComm Application - closing an application
+2023-08-02 18:31:06,457 [main] INFO nopComm Application - ---------------info-------------
+2023-08-02 18:31:06,457 [main] WARN nopComm Application - ---------------warn-------------
+2023-08-02 18:31:06,457 [main] ERROR nopComm Application - ---------------error-------------
+2023-08-02 18:31:06,457 [main] INFO nopComm Application - launching chrome browser
+2023-08-02 18:31:08,529 [main] INFO nopComm Application - launching application: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2023-08-02 18:31:09,652 [main] INFO nopComm Application - Logging into NOP Application using valid credentials
+2023-08-02 18:31:14,011 [main] INFO nopComm Application - Select Customers from Menu
+2023-08-02 18:31:14,125 [main] INFO nopComm Application - Select Customers from CustomerMenu List
+2023-08-02 18:31:15,427 [main] INFO nopComm Application - Searching Customer using Email Id
+2023-08-02 18:31:16,005 [main] INFO nopComm Application - Clicking Search button
+2023-08-02 18:31:16,140 [main] INFO nopComm Application - Check the searched customer name is displayed in webtable
+2023-08-02 18:31:16,786 [main] INFO nopComm Application - Found searched customer Name!!
+2023-08-02 18:31:16,786 [main] INFO nopComm Application - closing an application

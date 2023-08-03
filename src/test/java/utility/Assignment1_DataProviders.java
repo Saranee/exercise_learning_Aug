@@ -17,7 +17,14 @@ public class Assignment1_DataProviders  {
 		}
 		
 		
+		@DataProvider(name="name")
+		public static Object[][] customerName() {
+			
+			
+			Object [][] data = { {"Virat","Kohli"}};
+			return data;
+		
 	}
 
 
-
+}
